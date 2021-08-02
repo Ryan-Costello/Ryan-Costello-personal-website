@@ -1,0 +1,74 @@
+#nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-end;
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+}
+
+.items:hover {
+    background-color: gray;
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    width: 20%;
+    color: white;
+}
+
+#title {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 30px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.about_me {
+    font-family: Helvetica;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about_me_text {
+    font-family: Helvetica;
+    width: 50%;
+    font-size: 20px;
+}
+
+.interests {
+    font-family: Helvetica;
+    display: flex;
+    justify-content: space-between;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+#interests_imgs {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    width: 90%;
+}
+
+.contact {
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.resume {
+    font-family: Helvetica;
+    color: black;
+    background-color: #272D33;
+    display: flex;
+    align-items: flex-start;
+    font-size: 40px;
+}
