@@ -1,4 +1,4 @@
-#nav_bar {
+.nav_bar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -17,6 +17,8 @@
 
 body {
     background-color: lightgray;
+    color: black;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -29,11 +31,25 @@ a {
 .resume {
     display: flex;
     justify-content: flex-start;
-    color: black;
     font-family: Helvetica;
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode-navBar > a {
+    color: #8ebf42;
+}
+
 /* Slider css*/
+#toggle_text {
+    padding-top: 20px;
+    display: inline-flex;
+    align-self: flex-start;
+}
+
 .switch {
     position: relative;
     display: inline-block;
@@ -72,11 +88,11 @@ a {
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #21f333;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #21f333;
   }
   
   input:checked + .slider:before {
